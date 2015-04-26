@@ -1,0 +1,12 @@
+<IfModule mod_rewrite.c>
+RewriteEngine On
+#Options +FollowSymlinks
+#Options +Indexes
+RewriteBase /www/ym.loc/
+RewriteCond %{REQUEST_URI} admin
+RewriteRule ^.*$ admin/index.php [E=HTTP_AUTHORIZATION:%{HTTP:Authorization},L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^.*$ index.php [NC,L]
+RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization},L]
+</IfModule>

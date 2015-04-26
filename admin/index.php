@@ -34,11 +34,11 @@ include"func.php";
 
 
 
-$author['a_user'] = "admine4r5";
+$author['a_user'] = "admin";
 
 
 
-$author['a_pass'] = "bs5h5j6j1d";
+$author['a_pass'] = "admin";
 
 
 

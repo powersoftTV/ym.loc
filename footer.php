@@ -67,7 +67,7 @@
 									<li class="post">
 										<a href="?page=post_gallery" title="Study Linking Illnes and Salt Leaves Researchers Doubtful">
 											<span class="icon small gallery"></span>
-											<img src='images/samples/100x100/image_06.jpg' alt='img'>
+											<img src='/images/samples/100x100/image_06.jpg' alt='img'>
 										</a>
 										<div class="post_content">
 											<h5>
@@ -83,7 +83,7 @@
 									</li>
 									<li class="post">
 										<a href="?page=post" title="Syrian Civilians Trapped For Months Continue To Be Evacuated">
-											<img src='images/samples/100x100/image_12.jpg' alt='img'>
+											<img src='/images/samples/100x100/image_12.jpg' alt='img'>
 										</a>
 										<div class="post_content">
 											<h5>
@@ -99,7 +99,7 @@
 									</li>
 									<li class="post">
 										<a href="?page=post" title="Built on Brotherhood, Club Lives Up to Name">
-											<img src='images/samples/100x100/image_02.jpg' alt='img'>
+											<img src='/images/samples/100x100/image_02.jpg' alt='img'>
 										</a>
 										<div class="post_content">
 											<h5>
@@ -115,7 +115,7 @@
 									</li>
 									<li class="post">
 										<a href="?page=post" title="Nuclear Fusion Closer to Becoming a Reality">
-											<img src='images/samples/100x100/image_13.jpg' alt='img'>
+											<img src='/images/samples/100x100/image_13.jpg' alt='img'>
 										</a>
 										<div class="post_content">
 											<h5>
@@ -139,7 +139,7 @@
 									<li class="post">
 										<a href="?page=post_gallery" title="Struggling Nuremberg Sack Coach Verbeek">
 											<span class="icon gallery"></span>
-											<img src='images/samples/330x242/image_03.jpg' alt='img'>
+											<img src='/images/samples/330x242/image_03.jpg' alt='img'>
 										</a>
 										<h5 class="with_number">
 											<a href="?page=post_gallery" title="Struggling Nuremberg Sack Coach Verbeek">Struggling Nuremberg Sack Coach Verbeek</a>
@@ -155,7 +155,7 @@
 									<li class="post">
 										<a href="?page=post_gallery" title="Built on Brotherhood, Club Lives Up to Name">
 											<span class="icon gallery"></span>
-											<img src='images/samples/330x242/image_14.jpg' alt='img'>
+											<img src='/images/samples/330x242/image_14.jpg' alt='img'>
 										</a>
 										<h5 class="with_number">
 											<a href="?page=post_gallery" title="Built on Brotherhood, Club Lives Up to Name">Built on Brotherhood, Club Lives Up to Name</a>
@@ -171,7 +171,7 @@
 									<li class="post">
 										<a href="?page=post_gallery" title="New Painkiller Rekindles Addiction Concerns">
 											<span class="icon gallery"></span>
-											<img src='images/samples/330x242/image_04.jpg' alt='img'>
+											<img src='/images/samples/330x242/image_04.jpg' alt='img'>
 										</a>
 										<h5 class="with_number">
 											<a href="?page=post_gallery" title="New Painkiller Rekindles Addiction Concerns">New Painkiller Rekindles Addiction Concerns</a>
@@ -235,23 +235,23 @@
 		</div>
 		<div class="background_overlay"></div>
 		<!--js-->
-		<script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
-		<script type="text/javascript" src="js/jquery-migrate-1.2.1.min.js"></script>
-		<script type="text/javascript" src="js/jquery.ba-bbq.min.js"></script>
-		<script type="text/javascript" src="js/jquery-ui-1.11.1.custom.min.js"></script>
-		<script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
-		<script type="text/javascript" src="js/jquery.carouFredSel-6.2.1-packed.js"></script>
-		<script type="text/javascript" src="js/jquery.touchSwipe.min.js"></script>
-		<script type="text/javascript" src="js/jquery.transit.min.js"></script>
-		<script type="text/javascript" src="js/jquery.sliderControl.js"></script>
-		<script type="text/javascript" src="js/jquery.timeago.js"></script>
-		<script type="text/javascript" src="js/jquery.hint.js"></script>
-		<script type="text/javascript" src="js/jquery.prettyPhoto.js"></script>
-		<script type="text/javascript" src="js/jquery.qtip.min.js"></script>
-		<script type="text/javascript" src="js/jquery.blockUI.js"></script>
+		<script type="text/javascript" src="/js/jquery-1.11.1.min.js"></script>
+		<script type="text/javascript" src="/js/jquery-migrate-1.2.1.min.js"></script>
+		<script type="text/javascript" src="/js/jquery.ba-bbq.min.js"></script>
+		<script type="text/javascript" src="/js/jquery-ui-1.11.1.custom.min.js"></script>
+		<script type="text/javascript" src="/js/jquery.easing.1.3.js"></script>
+		<script type="text/javascript" src="/js/jquery.carouFredSel-6.2.1-packed.js"></script>
+		<script type="text/javascript" src="/js/jquery.touchSwipe.min.js"></script>
+		<script type="text/javascript" src="/js/jquery.transit.min.js"></script>
+		<script type="text/javascript" src="/js/jquery.sliderControl.js"></script>
+		<script type="text/javascript" src="/js/jquery.timeago.js"></script>
+		<script type="text/javascript" src="/js/jquery.hint.js"></script>
+		<script type="text/javascript" src="/js/jquery.prettyPhoto.js"></script>
+		<script type="text/javascript" src="/js/jquery.qtip.min.js"></script>
+		<script type="text/javascript" src="/js/jquery.blockUI.js"></script>
 		<script type="text/javascript" src="//maps.google.com/maps/api/js?sensor=false"></script>
-		<script type="text/javascript" src="js/main.js"></script>
-		<script type="text/javascript" src="js/odometer.min.js"></script>
+		<script type="text/javascript" src="/js/main.js"></script>
+		<script type="text/javascript" src="/js/odometer.min.js"></script>
 		<?php
 		//require_once("style_selector/style_selector.php");
 		if(isset($_COOKIE["pr_color_skin"]) && $_COOKIE["pr_color_skin"]=="high_contrast")

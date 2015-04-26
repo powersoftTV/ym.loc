@@ -5,7 +5,7 @@
 				<ul class="small_slider">
 					<li class="slide">
 						<a href="?page=post" title="Nuclear Fusion Closer to Becoming a Reality">
-							<img src='images/samples/690x450/image_09.jpg' alt='img'>
+							<img src='/images/samples/690x450/image_09.jpg' alt='img'>
 						</a>
 						<div class="slider_content_box">
 							<ul class="post_details simple">
@@ -20,7 +20,7 @@
 					</li>
 					<li class="slide">
 						<a href="?page=post" title="Climate Change Debate While Britain Floods">
-							<img src='images/samples/690x450/image_10.jpg' alt='img'>
+							<img src='/images/samples/690x450/image_10.jpg' alt='img'>
 						</a>
 						<div class="slider_content_box">
 							<ul class="post_details simple">
@@ -35,7 +35,7 @@
 					</li>
 					<li class="slide">
 						<a href="?page=post" title="The Public Health Crisis Hiding in Our Food">
-							<img src='images/samples/690x450/image_08.jpg' alt='img'>
+							<img src='/images/samples/690x450/image_08.jpg' alt='img'>
 						</a>
 						<div class="slider_content_box">
 							<ul class="post_details simple">
@@ -50,7 +50,7 @@
 					</li>
 					<li class="slide">
 						<a href="?page=post" title="Built on Brotherhood, Club Lives Up to Name">
-							<img src='images/samples/690x450/image_02.jpg' alt='img'>
+							<img src='/images/samples/690x450/image_02.jpg' alt='img'>
 						</a>
 						<div class="slider_content_box">
 							<ul class="post_details simple">
@@ -70,7 +70,7 @@
 					<ul class="blog column column_1_2">
 						<li class="post">
 							<a href="?page=post_small_image" title="Built on Brotherhood, Club Lives Up to Name">
-								<img src='images/samples/330x242/image_08.jpg' alt='img'>
+								<img src='/images/samples/330x242/image_08.jpg' alt='img'>
 							</a>
 							<h2 class="with_number">
 								<a href="?page=post_small_image" title="Built on Brotherhood, Club Lives Up to Name">Built on Brotherhood, Club Lives Up to Name</a>
@@ -81,7 +81,7 @@
 					<ul class="blog column column_1_2">
 						<li class="post">
 							<a href="?page=post" title="Built on Brotherhood, Club Lives Up to Name">
-								<img src='images/samples/330x242/image_09.jpg' alt='img'>
+								<img src='/images/samples/330x242/image_09.jpg' alt='img'>
 							</a>
 							<h2 class="with_number">
 								<a href="?page=post" title="Built on Brotherhood, Club Lives Up to Name">Built on Brotherhood, Club Lives Up to Name</a>
@@ -94,7 +94,7 @@
 					<ul class="blog medium">
 						<li class="post">
 							<a href="?page=post" title="High Altitudes May Aid Weight Control">
-								<img src='images/samples/330x242/image_02.jpg' alt='img'>
+								<img src='/images/samples/330x242/image_02.jpg' alt='img'>
 							</a>
 							<h5><a href="?page=post" title="High Altitudes May Aid Weight Control">High Altitudes May Aid Weight Control</a></h5>
 							<ul class="post_details simple">
@@ -107,7 +107,7 @@
 						<li class="post">
 							<a href="?page=post_gallery" title="Climate Change Debate While Britain Floods">
 								<span class="icon gallery"></span>
-								<img src='images/samples/330x242/image_01.jpg' alt='img'>
+								<img src='/images/samples/330x242/image_01.jpg' alt='img'>
 							</a>
 							<h5><a href="?page=post_gallery" title="Climate Change Debate While Britain Floods">Climate Change Debate While Britain Floods</a></h5>
 							<ul class="post_details simple">
@@ -120,7 +120,7 @@
 						<li class="post">
 							<a href="?page=post_gallery" title="Climate Change Debate While Britain Floods">
 								<span class="icon gallery"></span>
-								<img src='images/samples/330x242/image_03.jpg' alt='img'>
+								<img src='/images/samples/330x242/image_03.jpg' alt='img'>
 							</a>
 							<h5><a href="?page=post_gallery" title="Climate Change Debate While Britain Floods">New Painkiller Rekindles Addiction Concerns</a></h5>
 							<ul class="post_details simple">
@@ -138,7 +138,7 @@
 						<ul class="blog small_margin clearfix">
 							<li class="post">
 								<a href="?page=post_soundcloud" title="The Public Health Crisis Hiding in Our Food">
-									<img src='images/samples/510x187/image_12.jpg' alt='img'>
+									<img src='/images/samples/510x187/image_12.jpg' alt='img'>
 								</a>
 								<div class="post_content">
 									<h5>
@@ -166,7 +166,7 @@
 						<ul class="blog small_margin clearfix">
 							<li class="post">
 								<a href="?page=post" title="The Public Health Crisis Hiding in Our Food">
-									<img src='images/samples/510x187/image_06.jpg' alt='img'>
+									<img src='/images/samples/510x187/image_06.jpg' alt='img'>
 								</a>
 								<div class="post_content">
 									<h5>
@@ -211,7 +211,7 @@
 						<ul class="blog rating page_margin_top clearfix">
 							<li class="post">
 								<a href="?page=post_small_image" title="Nuclear Fusion Closer to Becoming a Reality">
-									<img src='images/samples/510x187/image_12.jpg' alt='img'>
+									<img src='/images/samples/510x187/image_12.jpg' alt='img'>
 								</a>
 								<div class="post_content">
 									<span class="number animated_element" data-value="6 257"></span>
@@ -263,7 +263,7 @@
 						<ul class="blog rating page_margin_top clearfix">
 							<li class="post">
 								<a href="?page=post" title="Nuclear Fusion Closer to Becoming a Reality">
-									<img src='images/samples/510x187/image_02.jpg' alt='img'>
+									<img src='/images/samples/510x187/image_02.jpg' alt='img'>
 								</a>
 								<div class="post_content">
 									<span class="number animated_element" data-value="70"></span>
@@ -316,7 +316,7 @@
 				<ul class="blog small clearfix">
 					<li class="post">
 						<a href="?page=post" title="Study Linking Illnes and Salt Leaves Researchers Doubtful">
-							<img src='images/samples/100x100/image_09.jpg' alt='img'>
+							<img src='/images/samples/100x100/image_09.jpg' alt='img'>
 						</a>
 						<div class="post_content">
 							<h5>
@@ -332,7 +332,7 @@
 					</li>
 					<li class="post">
 						<a href="?page=post_quote_2" title="Syrian Civilians Trapped For Months Continue To Be Evacuated">
-							<img src='images/samples/100x100/image_12.jpg' alt='img'>
+							<img src='/images/samples/100x100/image_12.jpg' alt='img'>
 						</a>
 						<div class="post_content">
 							<h5>
@@ -348,7 +348,7 @@
 					</li>
 					<li class="post">
 						<a href="?page=post" title="Built on Brotherhood, Club Lives Up to Name">
-							<img src='images/samples/100x100/image_02.jpg' alt='img'>
+							<img src='/images/samples/100x100/image_02.jpg' alt='img'>
 						</a>
 						<div class="post_content">
 							<h5>
@@ -365,7 +365,7 @@
 					<li class="post">
 						<a href="?page=post_gallery" title="Nuclear Fusion Closer to Becoming a Reality">
 							<span class="icon small gallery"></span>
-							<img src='images/samples/100x100/image_01.jpg' alt='img'>
+							<img src='/images/samples/100x100/image_01.jpg' alt='img'>
 						</a>
 						<div class="post_content">
 							<h5>
@@ -390,7 +390,7 @@
 					<ul class="blog horizontal_carousel autoplay-1 visible-4 scroll-1 navigation-1 easing-easeInOutQuint duration-750">
 						<li class="post">
 							<a href="?page=post" title="New Painkiller Rekindles Addiction Concerns">
-								<img src='images/samples/330x242/image_08.jpg' alt='img'>
+								<img src='/images/samples/330x242/image_08.jpg' alt='img'>
 							</a>
 							<h5><a href="?page=post" title="New Painkiller Rekindles Addiction Concerns">New Painkiller Rekindles Addiction Concerns</a></h5>
 							<ul class="post_details simple">
@@ -402,7 +402,7 @@
 						</li>
 						<li class="post">
 							<a href="?page=post" title="High Altitudes May Aid Weight Control">
-								<img src='images/samples/330x242/image_01.jpg' alt='img'>
+								<img src='/images/samples/330x242/image_01.jpg' alt='img'>
 							</a>
 							<h5><a href="?page=post" title="High Altitudes May Aid Weight Control">High Altitudes May Aid Weight Control</a></h5>
 							<ul class="post_details simple">
@@ -415,7 +415,7 @@
 						<li class="post">
 							<a href="?page=post_gallery" title="Built on Brotherhood, Club Lives Up to Name">
 								<span class="icon gallery"><!--<span class="info">999</span>--></span>
-								<img src='images/samples/330x242/image_03.jpg' alt='img'>
+								<img src='/images/samples/330x242/image_03.jpg' alt='img'>
 							</a>
 							<h5><a href="?page=post_gallery" title="Built on Brotherhood, Club Lives Up to Name">Built on Brotherhood, Club Lives Up to Name</a></h5>
 							<ul class="post_details simple">
@@ -427,7 +427,7 @@
 						</li>
 						<li class="post first">
 							<a href="?page=post" title="Built on Brotherhood, Club Lives Up to Name">
-								<img src='images/samples/330x242/image_09.jpg' alt='img'>
+								<img src='/images/samples/330x242/image_09.jpg' alt='img'>
 							</a>
 							<h5><a href="?page=post" title="Built on Brotherhood, Club Lives Up to Name">Built on Brotherhood, Club Lives Up to Name</a></h5>
 							<ul class="post_details simple">
@@ -439,7 +439,7 @@
 						</li>
 						<li class="post first">
 							<a href="?page=post" title="Nuclear Fusion Closer to Becoming a Reality">
-								<img src='images/samples/330x242/image_04.jpg' alt='img'>
+								<img src='/images/samples/330x242/image_04.jpg' alt='img'>
 							</a>
 							<h5><a href="?page=post" title="Nuclear Fusion Closer to Becoming a Reality">Nuclear Fusion Closer to Becoming a Reality</a></h5>
 							<ul class="post_details simple">
@@ -459,7 +459,7 @@
 				<ul class="blog">
 					<li class="post">
 						<a href="?page=post" title="Struggling Nuremberg Sack Coach Verbeek">
-							<img src='images/samples/330x242/image_06.jpg' alt='img'>
+							<img src='/images/samples/330x242/image_06.jpg' alt='img'>
 						</a>
 						<h2 class="with_number">
 							<a href="?page=post" title="Struggling Nuremberg Sack Coach Verbeek">Struggling Nuremberg Sack Coach Verbeek</a>
@@ -478,7 +478,7 @@
 				<ul class="blog small clearfix">
 					<li class="post">
 						<a href="?page=post_small_image" title="Bayern Says Ties With Rivals Dortmund Have Frozen">
-							<img src='images/samples/100x100/image_14.jpg' alt='img'>
+							<img src='/images/samples/100x100/image_14.jpg' alt='img'>
 						</a>
 						<div class="post_content">
 							<h5>
@@ -494,7 +494,7 @@
 					</li>
 					<li class="post">
 						<a href="?page=post_soundcloud" title="Built on Brotherhood, Club Lives Up to Name">
-							<img src='images/samples/100x100/image_12.jpg' alt='img'>
+							<img src='/images/samples/100x100/image_12.jpg' alt='img'>
 						</a>
 						<div class="post_content">
 							<h5>
@@ -516,7 +516,7 @@
 				<ul class="blog">
 					<li class="post">
 						<a href="?page=post" title="High Altitudes May Aid Weight Control">
-							<img src='images/samples/330x242/image_07.jpg' alt='img'>
+							<img src='/images/samples/330x242/image_07.jpg' alt='img'>
 						</a>
 						<h2 class="with_number">
 							<a href="?page=post" title="High Altitudes May Aid Weight Control">High Altitudes May Aid Weight Control</a>
@@ -535,7 +535,7 @@
 				<ul class="blog small clearfix">
 					<li class="post">
 						<a href="?page=post" title="Bayern Says Ties With Rivals Dortmund Have Frozen">
-							<img src='images/samples/100x100/image_01.jpg' alt='img'>
+							<img src='/images/samples/100x100/image_01.jpg' alt='img'>
 						</a>
 						<div class="post_content">
 							<h5>
@@ -552,7 +552,7 @@
 					<li class="post">
 						<a href="?page=post_video" title="Built on Brotherhood, Club Lives Up to Name">
 							<span class="icon small video"></span>
-							<img src='images/samples/100x100/image_03.jpg' alt='img'>
+							<img src='/images/samples/100x100/image_03.jpg' alt='img'>
 						</a>
 						<div class="post_content">
 							<h5>
@@ -574,7 +574,7 @@
 				<ul class="blog small clearfix">
 					<li class="post">
 						<a href="?page=post" title="Study Linking Illnes and Salt Leaves Researchers Doubtful">
-							<img src='images/samples/100x100/image_09.jpg' alt='img'>
+							<img src='/images/samples/100x100/image_09.jpg' alt='img'>
 						</a>
 						<div class="post_content">
 							<h5>
@@ -590,7 +590,7 @@
 					</li>
 					<li class="post">
 						<a href="?page=post" title="Syrian Civilians Trapped For Months Continue To Be Evacuated">
-							<img src='images/samples/100x100/image_12.jpg' alt='img'>
+							<img src='/images/samples/100x100/image_12.jpg' alt='img'>
 						</a>
 						<div class="post_content">
 							<h5>
@@ -606,7 +606,7 @@
 					</li>
 					<li class="post">
 						<a href="?page=post" title="Built on Brotherhood, Club Lives Up to Name">
-							<img src='images/samples/100x100/image_02.jpg' alt='img'>
+							<img src='/images/samples/100x100/image_02.jpg' alt='img'>
 						</a>
 						<div class="post_content">
 							<h5>
@@ -623,7 +623,7 @@
 					<li class="post">
 						<a href="?page=post_gallery" title="Nuclear Fusion Closer to Becoming a Reality">
 							<span class="icon small gallery"></span>
-							<img src='images/samples/100x100/image_01.jpg' alt='img'>
+							<img src='/images/samples/100x100/image_01.jpg' alt='img'>
 						</a>
 						<div class="post_content">
 							<h5>
