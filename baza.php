@@ -14,6 +14,6 @@
 	$t=date("P",$timenew);
 	mysqli_query($link,"SET SESSION time_zone = '$t'")or die(mysqli_error());
 
-    $domen="ym.loc";
+    $domen="/";
     $userfiles_path="/userfiles";
 ?>

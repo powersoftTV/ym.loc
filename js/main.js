@@ -1024,7 +1024,7 @@ jQuery(document).ready(function($){
 	});
 	
 	//timeago
-	$("abbr.timeago").timeago();
+	//$("abbr.timeago").timeago();
 	
 	if($("#map").length)
 	{
