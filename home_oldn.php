@@ -3,44 +3,66 @@
 		<div class="row page_margin_top">
 			<div class="column column_2_3">
 				<ul class="small_slider">
-                    <?php 
-                        $query="SELECT 
-                                                        records.r_pic,records.r_title_$lang,records.r_date,records.r_short_$lang,records.r_category,categories.c_name_$lang
-                                FROM 
-                                            records
-                                LEFT JOIN
-                                            categories 
-                                ON
-                                            r_category=orderCode
-                                WHERE
-                                            `r_category` > 0 AND `r_show_$lang` = 1
-                                ORDER BY   
-                                            records.id
-                                DESC
-                                LIMIT 
-                                            20
-                                        ";
-                        $resh = mysqli_query($link, $query ) or die(mysqli_error());
-						while($row = mysqli_fetch_assoc($resh)){
-                        
-                    echo '    
 					<li class="slide">
-						<a href="?page=post" title="'.$rowh['r_title_hy'.$lang].'">
-							<img style="width:690px; height:500px" src="'.$domen.'userfiles/'.$row['r_pic'].'" alt="img">
+						<a href="?page=post" title="Nuclear Fusion Closer to Becoming a Reality">
+							<img src='<?=$domen?>images/samples/690x450/image_09.jpg' alt='img'>
 						</a>
 						<div class="slider_content_box">
 							<ul class="post_details simple">
-								<li class="category"><a href="?page=category&amp;cat=health" title="HEALTH">'.$row['c_name_'.$lang].'</a></li>
+								<li class="category"><a href="?page=category&amp;cat=health" title="HEALTH">HEALTH</a></li>
 								<li class="date">
-									'.$row['r_date'].'
+									10:11 PM, Feb 02
 								</li>
 							</ul>
-							<h2><a href="?page=post" title="'.$row['r_title_'.$lang].'">'.mb_substr($row['r_title_'.$lang], 0, 45,'utf-8').'...</a></h2>
-							<p class="clearfix">'.$row['r_short_'.$lang].'</p>
+							<h2><a href="?page=post" title="Nuclear Fusion Closer to Becoming a Reality">Nuclear Fusion Closer to Becoming a Reality</a></h2>
+							<p class="clearfix">Maecenas mauris elementum, est morbi interdum cursus at elite imperdiet libero. Proin odios dapibus integer an nulla augue pharetra cursus.</p>
 						</div>
-					</li>';
-                         } ?>
-					
+					</li>
+					<li class="slide">
+						<a href="?page=post" title="Climate Change Debate While Britain Floods">
+							<img src='<?=$domen?>images/samples/690x450/image_10.jpg' alt='img'>
+						</a>
+						<div class="slider_content_box">
+							<ul class="post_details simple">
+								<li class="category"><a href="?page=category&amp;cat=world" title="WORLD">WORLD</a></li>
+								<li class="date">
+									18:25 PM, Feb 21
+								</li>
+							</ul>
+							<h2><a href="?page=post" title="Climate Change Debate While Britain Floods">Climate Change Debate While Britain Floods</a></h2>
+							<p class="clearfix">Maecenas mauris elementum, est morbi interdum cursus at elite imperdiet libero. Proin odios dapibus integer an nulla augue pharetra cursus.</p>
+						</div>
+					</li>
+					<li class="slide">
+						<a href="?page=post" title="The Public Health Crisis Hiding in Our Food">
+							<img src='<?=$domen?>images/samples/690x450/image_08.jpg' alt='img'>
+						</a>
+						<div class="slider_content_box">
+							<ul class="post_details simple">
+								<li class="category"><a href="?page=category&amp;cat=health" title="HEALTH">HEALTH</a></li>
+								<li class="date">
+									10:11 PM, Feb 02
+								</li>
+							</ul>
+							<h2><a href="?page=post" title="The Public Health Crisis Hiding in Our Food">The Public Health Crisis Hiding in Our Food</a></h2>
+							<p class="clearfix">Maecenas mauris elementum, est morbi interdum cursus at elite imperdiet libero. Proin odios dapibus integer an nulla augue pharetra cursus.</p>
+						</div>
+					</li>
+					<li class="slide">
+						<a href="?page=post" title="Built on Brotherhood, Club Lives Up to Name">
+							<img src='<?=$domen?>images/samples/690x450/image_02.jpg' alt='img'>
+						</a>
+						<div class="slider_content_box">
+							<ul class="post_details simple">
+								<li class="category"><a href="?page=category&amp;cat=world" title="WORLD">WORLD</a></li>
+								<li class="date">
+									18:25 PM, Feb 21
+								</li>
+							</ul>
+							<h2><a href="?page=post" title="Built on Brotherhood, Club Lives Up to Name">Built on Brotherhood, Club Lives Up to Name</a></h2>
+							<p class="clearfix">Maecenas mauris elementum, est morbi interdum cursus at elite imperdiet libero. Proin odios dapibus integer an nulla augue pharetra cursus.</p>
+						</div>
+					</li>
 				</ul>
 				<div class='slider_posts_list_container'>
 				</div>
