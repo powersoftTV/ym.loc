@@ -13,7 +13,7 @@
                                 ON
                                             r_category=orderCode
                                 WHERE
-                                            `r_category` > 0 AND `r_show_$lang` = 1
+                                            `r_category` > 0 AND `r_show_$lang` = 1 AND `r_top`=1
                                 ORDER BY   
                                             records.id
                                 DESC
@@ -25,17 +25,19 @@
                         
                     echo '    
 					<li class="slide">
-						<a href="?page=post" title="'.$rowh['r_title_hy'.$lang].'">
-							<img style="width:690px; height:500px" src="'.$domen.'userfiles/'.$row['r_pic'].'" alt="img">
+						<a href="?page=post" title="'.$row['r_title_'.$lang].'">
+                            <div class="image_holder">
+                                <img class="slider_image" src="'.$domen.'userfiles/'.$row['r_pic'].'" alt="img">
+                            </div>
 						</a>
 						<div class="slider_content_box">
 							<ul class="post_details simple">
-								<li class="category"><a href="?page=category&amp;cat=health" title="HEALTH">'.$row['c_name_'.$lang].'</a></li>
+								<li class="category"><a href="?page=category&amp;cat=health" title="'.$row['c_name_'.$lang].'">'.$row['c_name_'.$lang].'</a></li>
 								<li class="date">
 									'.$row['r_date'].'
 								</li>
 							</ul>
-							<h2><a href="?page=post" title="'.$row['r_title_'.$lang].'">'.mb_substr($row['r_title_'.$lang], 0, 45,'utf-8').'...</a></h2>
+							<h2><a href="?page=post" title="'.$row['r_title_'.$lang].'">'.$row['r_title_'.$lang].'</a></h2>
 							<p class="clearfix">'.$row['r_short_'.$lang].'</p>
 						</div>
 					</li>';
@@ -174,67 +176,52 @@
 					<ul class="tabs_navigation clearfix">
 						<li>
 							<a href="#sidebar-most-read" title="Most Read">
-								Most Read
+								<?=$_LANG["most_read"][$lang]?>
 							</a>
 							<span></span>
 						</li>
 						<li>
 							<a href="#sidebar-most-commented" title="Commented">
-								Commented
+								<?=$_LANG["video"][$lang]?>
 							</a>
 							<span></span>
 						</li>
 					</ul>
 					<div id="sidebar-most-read">
 						<ul class="blog rating page_margin_top clearfix">
+                             <?php 
+                        $query="SELECT 
+                                                        records.r_pic,records.r_title_$lang,records.r_date,records.r_short_$lang,records.r_category,categories.c_name_$lang
+                                FROM 
+                                            records
+                                LEFT JOIN
+                                            categories 
+                                ON
+                                            r_category=orderCode
+                                WHERE
+                                            `r_category` > 0 AND `r_show_$lang` = 1
+                                ORDER BY   
+                                            records.id
+                                DESC
+                                LIMIT 
+                                            20
+                                        ";
+                        $resh = mysqli_query($link, $query ) or die(mysqli_error());
+						while($row = mysqli_fetch_assoc($resh)){ ?>
 							<li class="post">
-								<a href="?page=post_small_image" title="Nuclear Fusion Closer to Becoming a Reality">
-									<img src='<?=$domen?>images/samples/510x187/image_12.jpg' alt='img'>
+								<a href="?page=post_small_image" title="<?=$row['r_title_'.$lang]?>">
+									<img src='<?=$domen?>userfiles/<?=$row['r_pic']?>' alt='img'>
 								</a>
 								<div class="post_content">
 									<span class="number animated_element" data-value="6 257"></span>
-									<h5><a href="?page=post_small_image" title="New Painkiller Rekindles Addiction Concerns">New Painkiller Rekindles Addiction Concerns</a></h5>
+									<h5><a href="?page=post_small_image" title="<?=$row['r_title_'.$lang]?>"><?=$row['r_title_'.$lang]?></a></h5>
 									<ul class="post_details simple">
-										<li class="category"><a href="?page=category&amp;cat=health" title="HEALTH">HEALTH</a></li>
+										<li class="category"><a href="?page=category&amp;cat=health" title="<?=$row['c_name_'.$lang]?>"><?=$row['c_name_'.$lang]?></a></li>
 									</ul>
 								</div>
 							</li>
-							<li class="post">
-								<div class="post_content">
-									<span class="number animated_element" data-value="5 062"></span>
-									<h5><a href="?page=post" title="New Painkiller Rekindles Addiction Concerns">New Painkiller Rekindles Addiction Concerns</a></h5>
-									<ul class="post_details simple">
-										<li class="category"><a href="?page=category&amp;cat=world" title="WORLD">WORLD</a></li>
-									</ul>
-								</div>
-							</li>
-							<li class="post">
-								<div class="post_content">
-									<span class="number animated_element" data-value="4 778"></span>
-									<h5><a href="?page=post" title="Seeking the Right Chemistry, Drug Makers Hunt for Mergers">Seeking the Right Chemistry, Drug Makers Hunt for Mergers</a></h5>
-									<ul class="post_details simple">
-										<li class="category"><a href="?page=category&amp;cat=sports" title="SPORTS">SPORTS</a></li>
-									</ul>
-								</div>
-							</li>
-							<li class="post">
-								<div class="post_content">
-									<span class="number animated_element" data-value="754"></span>
-									<h5><a href="?page=post" title="Study Linking Illnes and Salt Leaves Researchers Doubtful">Study Linking Illnes and Salt Leaves Researchers Doubtful</a></h5>
-									<ul class="post_details simple">
-										<li class="category"><a href="?page=category&amp;cat=science" title="SCIENCE">SCIENCE</a></li>
-									</ul>
-								</div>
-							</li>
-							<li class="post">
-								<div class="post_content">
-									<span class="number animated_element" data-value="52"></span>
-									<h5><a href="?page=post" title="Syrian Civilians Trapped for Months Continue to be Evacuated">Syrian Civilians Trapped for Months Continue to be Evacuated</a></h5>
-									<ul class="post_details simple">
-										<li class="category"><a href="?page=category&amp;cat=science" title="SCIENCE">SCIENCE</a></li>
-									</ul>
-								</div>
-							</li>
+                            <? } ?>
+							
 						</ul>
 					</div>
 					<div id="sidebar-most-commented">

@@ -20,4 +20,12 @@ $_LANG["Search"]["en"]="Search";
 $_LANG["Search"]["hy"]="Փնտրել";
 $_LANG["Search"]["ru"]="Поиск";
 
+$_LANG["most_read"]["en"]="Most Read";
+$_LANG["most_read"]["hy"]="Ամենաընթերցվածը";
+$_LANG["most_read"]["ru"]="Самое читаемое";
+
+$_LANG["video"]["en"]="Video";
+$_LANG["video"]["hy"]="Տեսանյութեր";
+$_LANG["video"]["ru"]="Видео";
+
 ?>

@@ -15,10 +15,10 @@
 		<link rel="stylesheet" type="text/css" href="<?=$domen?>style/superfish.css">
 		<link rel="stylesheet" type="text/css" href="<?=$domen?>style/prettyPhoto.css">
 		<link rel="stylesheet" type="text/css" href="<?=$domen?>style/jquery.qtip.css">
-		<link rel="stylesheet" type="text/css" href="<?=$domen?>style/style.css">
+		<link rel="stylesheet" type="text/css" href="<?=$domen?>style/style.css?v=1.4">
 		<link rel="stylesheet" type="text/css" href="<?=$domen?>style/menu_styles.css">
 		<link rel="stylesheet" type="text/css" href="<?=$domen?>style/animations.css">
-		<link rel="stylesheet" type="text/css" href="<?=$domen?>style/responsive.css">
+		<link rel="stylesheet" type="text/css" href="<?=$domen?>style/responsive.css?v=1.5">
 		<link rel="stylesheet" type="text/css" href="<?=$domen?>style/odometer-theme-default.css">
 		<link rel="shortcut icon" href="<?=$domen?>images/favicon.ico">
 	</head>
@@ -27,6 +27,23 @@
 		<div class="site_container">
 			<div class="header_top_bar_container clearfix">
 				<div class="header_top_bar">
+                    <ul class="social_icons clearfix">
+                        <li>
+							<a href="am" class="lang_bar <? if($lang=='hy')echo active_lang ?>"  title="Հայերեն">
+								Հայ
+							</a>
+						</li>
+                        <li>
+							<a href="en" class="lang_bar <? if($lang=='en')echo active_lang ?>"  title="English">
+								Eng
+							</a>
+						</li>
+                        <li>
+							<a href="ru" class="lang_bar <? if($lang=='ru')echo active_lang ?>"  title="Русский">
+								Рус
+							</a>
+						</li>
+                    </ul>
 					<form class="search">
 						<input type="text" name="s" placeholder="<?=$_LANG["Search"][$lang]?>..." value="<?=$_LANG["Search"][$lang]?>..." class="search_input hint">
 						<input type="submit" class="search_submit" value="">
@@ -34,25 +51,16 @@
 					</form>
 					<ul class="social_icons clearfix">
 						<li>
-							<a target="_blank" href="http://facebook.com/QuanticaLabs" class="social_icon facebook" title="facebook">
+							<a target="_blank" href="https://www.facebook.com/pages/Yerkir-Media/309735964196" class="social_icon facebook" title="facebook">
 								&nbsp;
 							</a>
 						</li>
 						<li>
-							<a target="_blank" href="https://twitter.com/QuanticaLabs" class="social_icon twitter" title="twitter">
+							<a href="mailto:news@yerkirmedia.am" class="social_icon mail" title="mail">
 								&nbsp;
 							</a>
 						</li>
-						<li>
-							<a href="mailto:contact@pressroom.com" class="social_icon mail" title="mail">
-								&nbsp;
-							</a>
-						</li>
-						<li>
-							<a href="http://themeforest.net/user/QuanticaLabs/portfolio" class="social_icon envato" title="envato">
-								&nbsp;
-							</a>
-						</li>
+						
 					
 					</ul>
 					<div class="latest_news_scrolling_list_container">
@@ -86,9 +94,10 @@
 			<div class="header_container">
 				<div class="header clearfix">
 					<div class="logo">
-						<h1><a href="?page=home" title="Pressroom">Pressroom</a></h1>
-						<h4>News and Magazine Template</h4>
-					</div>
+						<a href="?page=home" title="<?=$_LANG['Yerkir_media'][$lang]?>">
+                        <img class="logo_img" src="<?=$domen?>s/i/logohy.png" title="<?=$_LANG['Yerkir_media'][$lang]?>" alt="<?=$_LANG['Yerkir_media'][$lang]?>" style="border:0px;"></a>
+                        <embed class="header_adv" src="viva_cell.swf" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer">
+				    </div>
 					<div class="placeholder">728 x 90</div>
 				</div>
 			</div>
